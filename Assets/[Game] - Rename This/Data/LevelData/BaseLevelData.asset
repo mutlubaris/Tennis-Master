@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217a90ea8832740c8b7ab261914d3020, type: 3}
+  m_Name: BaseLevelData
+  m_EditorClassIdentifier: 
+  Levels:
+  - LevelTypes: 02000000
+    LoadLevelID: Level_01
+    QADatas: []
+    TennisData:
+      GamesToWin: 1
+      PlayerSpeed: 7
+      OpponentSpeed: 4
+      OpponentHitX: 0
+      OpponentHitY: 6
+      OpponentHitZ: 23
+      PlayerHitX: 6
+      PlayerHitY: 6
+      PlayerHitZ: 15
+      IsSmartAI: 0
+  - LevelTypes: 02000000
+    LoadLevelID: Level_01
+    QADatas: []
+    TennisData:
+      GamesToWin: 1
+      PlayerSpeed: 7
+      OpponentSpeed: 4
+      OpponentHitX: 2
+      OpponentHitY: 6
+      OpponentHitZ: 23
+      PlayerHitX: 6
+      PlayerHitY: 6
+      PlayerHitZ: 15
+      IsSmartAI: 0
+  - LevelTypes: 02000000
+    LoadLevelID: Level_01
+    QADatas: []
+    TennisData:
+      GamesToWin: 1
+      PlayerSpeed: 7
+      OpponentSpeed: 5
+      OpponentHitX: 2
+      OpponentHitY: 6
+      OpponentHitZ: 23
+      PlayerHitX: 6
+      PlayerHitY: 6
+      PlayerHitZ: 15
+      IsSmartAI: 0
+  - LevelTypes: 02000000
+    LoadLevelID: Level_01
+    QADatas: []
+    TennisData:
+      GamesToWin: 1
+      PlayerSpeed: 7
+      OpponentSpeed: 5
+      OpponentHitX: 4
+      OpponentHitY: 6
+      OpponentHitZ: 23
+      PlayerHitX: 6
+      PlayerHitY: 6
+      PlayerHitZ: 15
+      IsSmartAI: 0
+  - LevelTypes: 02000000
+    LoadLevelID: Level_01
+    QADatas: []
+    TennisData:
+      GamesToWin: 1
+      PlayerSpeed: 7
+      OpponentSpeed: 3
+      OpponentHitX: 2
+      OpponentHitY: 6
+      OpponentHitZ: 23
+      PlayerHitX: 6
+      PlayerHitY: 6
+      PlayerHitZ: 15
+      IsSmartAI: 1
+  - LevelTypes: 02000000
+    LoadLevelID: Level_01
+    QADatas: []
+    TennisData:
+      GamesToWin: 1
+      PlayerSpeed: 7
+      OpponentSpeed: 4
+      OpponentHitX: 4
+      OpponentHitY: 6
+      OpponentHitZ: 23
+      PlayerHitX: 6
+      PlayerHitY: 6
+      PlayerHitZ: 15
+      IsSmartAI: 1
+  - LevelTypes: 02000000
+    LoadLevelID: Level_01
+    QADatas: []
+    TennisData:
+      GamesToWin: 1
+      PlayerSpeed: 7
+      OpponentSpeed: 5
+      OpponentHitX: 3
+      OpponentHitY: 6
+      OpponentHitZ: 23
+      PlayerHitX: 6
+      PlayerHitY: 6
+      PlayerHitZ: 15
+      IsSmartAI: 1
+  - LevelTypes: 02000000
+    LoadLevelID: Level_01
+    QADatas: []
+    TennisData:
+      GamesToWin: 1
+      PlayerSpeed: 7
+      OpponentSpeed: 5
+      OpponentHitX: 5
+      OpponentHitY: 6
+      OpponentHitZ: 23
+      PlayerHitX: 6
+      PlayerHitY: 6
+      PlayerHitZ: 15
+      IsSmartAI: 1
+  - LevelTypes: 02000000
+    LoadLevelID: Level_01
+    QADatas: []
+    TennisData:
+      GamesToWin: 1
+      PlayerSpeed: 7
+      OpponentSpeed: 6
+      OpponentHitX: 4
+      OpponentHitY: 6
+      OpponentHitZ: 23
+      PlayerHitX: 6
+      PlayerHitY: 6
+      PlayerHitZ: 15
+      IsSmartAI: 1
+  - LevelTypes: 02000000
+    LoadLevelID: Level_01
+    QADatas: []
+    TennisData:
+      GamesToWin: 1
+      PlayerSpeed: 7
+      OpponentSpeed: 7
+      OpponentHitX: 6
+      OpponentHitY: 6
+      OpponentHitZ: 23
+      PlayerHitX: 6
+      PlayerHitY: 6
+      PlayerHitZ: 15
+      IsSmartAI: 1
