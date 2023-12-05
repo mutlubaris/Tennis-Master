@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Firebase.Analytics;
+//using Firebase.Analytics;
 using Facebook.Unity;
 using ElephantSDK;
 
@@ -15,14 +15,14 @@ public class AnalitycsManager : Singleton<AnalitycsManager>
         {
             PlayerPrefs.SetString(PlayerPrefKeys.UserID, System.Guid.NewGuid().ToString());
             PlayerPrefs.SetInt(PlayerPrefKeys.LoginCount, 1);
-            FirebaseAnalytics.LogEvent("Login_Event", "FirstLogin", "NewUserLogin");
+            //FirebaseAnalytics.LogEvent("Login_Event", "FirstLogin", "NewUserLogin");
         }
         else
         {
             int loginCount = PlayerPrefs.GetInt(PlayerPrefKeys.LoginCount, 1);
             loginCount++;
             PlayerPrefs.SetInt(PlayerPrefKeys.LoginCount, loginCount);
-            FirebaseAnalytics.LogEvent("Login_Event", "ExistingUserLogedin", "LoginCount_" + loginCount);
+            //FirebaseAnalytics.LogEvent("Login_Event", "ExistingUserLogedin", "LoginCount_" + loginCount);
         }
     }
 
